@@ -74,3 +74,6 @@ h1, p{
     margin-top: 20px;
 }
 
+::-webkit-scrollbar{
+    display: none;
+}
