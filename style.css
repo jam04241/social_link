@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+
+*{
+    font-family: "Inconsolata", monospace;
+    color: #ffeeee;
+    padding: 0;
+    margin: auto;
+    position: relative;
+    
+   
+}
+.header, .footer{
+    background-color: transparent;
+}
+body{
+    padding: 50px 0 50px 0;
+    background: linear-gradient(to bottom right,#015C92, #2D82B5, #5697ff,#88CDF6, #BCE6FF);
+    background-attachment: fixed;
+    background-size: 100% 100vh; 
+    
+}
+.main .section{
+    width: auto; 
+    padding-top: 60px;  
+    padding-bottom: 100px;  
+    border-radius: 20px;
+    height: 600px;
+    width: 400px;
+    
+}
+.profile{
+    border-radius: 100px;
+}
+.section ,.profile{ 
+    text-align: center;
+    background: linear-gradient(#003350,#016dac,#016dac,#016dac,#003350)   
+    /*background-color: bisque;*/   
+}
+
+.main .nav, a{ 
+    background: linear-gradient(to bottom right,#006aa8,#BCE6FF);
+    border-radius: 30px;  
+    display: grid;
+    margin: 20px; 
+    margin-left: 11.3ch;
+    width: 180px;   
+    height: 50px; 
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    position: relative;
+    
+   
+}
+.icon{
+    /*background-color: #FF9CDA,#041B2D;*/
+    position: absolute; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+a:hover, a:hover .icon {
+    background: #96d8fe; 
+    box-shadow: 0 0 50px #96d8fe,0 0 50px #96d8fe, 0 0 50px gold;
+}
+
+a:hover .icon {
+    box-shadow: none;
+}
+
+h1, p{
+    margin-top: 20px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+@media screen and (max-width: 273px) {
+    
+}
